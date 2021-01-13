@@ -13,7 +13,6 @@ exports.handler = (event, context, callback) => {
           restApiId: 'stage id from API Gateway',
           stageName: 'stage name from API Gateway'
         },
-        /* more items */
       ],
     };
     apigateway.createApiKey(params, function(err, data) {
